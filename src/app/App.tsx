@@ -1,9 +1,14 @@
-import styles from './app.module.css';
+import Gallery from '../features/gallery/Gallery';
+import SearchForm from '../features/searchForm/SearchForm';
+import ThemeToggle from '../features/themeToggle/ThemeToggle';
+// import styles from './app.module.css';
 
 const App = () => {
   return (
-    <main className={styles.container}>
-      <div>BOILERPLATE</div>
+    <main>
+      <ThemeToggle />
+      <SearchForm />
+      <Gallery />
     </main>
   );
 };

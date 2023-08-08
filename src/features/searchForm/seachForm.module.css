@@ -1,0 +1,26 @@
+.searchForm {
+	display: grid;
+	grid-template-columns: 1fr auto;
+
+	width: var(--view-width);
+	max-width: var(--fixed-width);
+	margin: 2rem auto 0;
+}
+
+.searchInput {
+	color: var(--textColor);
+	border-color: var(--grey-300);
+	border-radius: 0;
+	transition: var(--darkModeTransition);
+
+	/* border-right: none; */
+}
+
+.searchForm .btn {
+	border-radius: 0;
+}
+
+.searchForm .btn:hover {
+	color: var(--black);
+	background: var(--primary-300);
+}

@@ -1,0 +1,27 @@
+.toggleContainer {
+	display: flex;
+	justify-content: end;
+
+	width: var(--view-width);
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 1rem 0;
+}
+
+.darkToggle {
+	cursor: pointer;
+
+	display: grid;
+	place-items: center;
+
+	width: 5rem;
+	height: 2rem;
+
+	background: transparent;
+	border-color: transparent;
+}
+
+.toggleIcon {
+	font-size: 1.5rem;
+	color: var(--textColor);
+}
